@@ -79,9 +79,7 @@ h2{
   margin-top: -100px;
 }
 
-#bosyu{
-  height: 85dvh;
-}
+
 
 .bosyu-container{
   display: flex;
@@ -195,3 +193,15 @@ th,td{
 #about{
   padding-bottom: 180px;
 }
+
+@media screen and (max-width: 1000px){
+  #fs{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  #fs img{
+    width: 80%;
+  }
+}
+  

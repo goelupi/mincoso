@@ -239,3 +239,41 @@ address{
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 1000px){
+  
+  #fv .fv-bg{
+    background-position: center;
+  }
+
+  .fv-text{
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+
+  .cc{
+    font-size: 20px;
+  }
+
+  h1{
+    font-size: 5vw;
+  }
+
+  h1 span{
+    font-size: 10vw;
+  }
+  .cta{
+    justify-content: space-around;
+  }
+  .cta img{
+    display: none;
+  }
+
+  .cta-item{
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+  }
+
+}
