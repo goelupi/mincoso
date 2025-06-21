@@ -226,7 +226,10 @@ th,td{
   .sikumi-img{
     margin-top: 10px;
     text-align: center;
+  }
 
+  .sikumi-text{
+    width: 100%;
   }
 
   .bosyu-container{
@@ -254,6 +257,10 @@ th,td{
 
   .basyo-text{
     text-align: left;
+  }
+
+  #ryokin{
+    height: auto;
   }
 
   table{
