@@ -199,9 +199,65 @@ th,td{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    gap: 100px;
   }
   #fs img{
     width: 80%;
+  }
+
+  .fs-text p{
+    text-align: left;
+  }
+
+  h2{
+    font-size: 10vw;
+  }
+
+  #sikumi{
+    height: auto;
+  }
+
+
+  #sikumi img{
+    border: 10px solid rgba(222,184,135,03);
+    width: 80%;
+  }
+
+  .sikumi-img{
+    margin-top: 10px;
+    text-align: center;
+
+  }
+
+  .bosyu-container{
+    flex-direction: column;
+    
+  }
+
+  .bosyu-item{
+    width: 100%;
+  }
+
+  #basyo{
+    width: 100%;
+    height: auto;
+  }
+
+  #basyo img{
+    width: 80%;
+    margin-bottom: 100px;
+  }
+
+  .basyo-container{
+    text-align: center;
+  }
+
+  .basyo-text{
+    text-align: left;
+  }
+
+  table{
+    width: 90%;
   }
 }
   
