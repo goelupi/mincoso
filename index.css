@@ -1,0 +1,197 @@
+#bosyu,
+#ryoukin,
+#about{
+  background-image: url(./img/circle-scatter-haikei\ \(2\).svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.content-width{
+  width: 95vw;
+  margin: 0 auto;
+}
+
+#fs img{
+ width: 40%;
+ border-radius: 24px;
+ box-shadow: 16px 8px #deb887;
+}
+
+#fs{
+  height: 90dvh;
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  line-height: 2;
+  text-decoration: underline dashed #ff6964;
+  text-underline-offset: 10px;
+}
+
+#fs span{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fs-text p{
+  text-align: end;
+}
+
+h2{
+  font-size: 56px;
+  height: 50px;
+  line-height: 50px;
+  border-left: 5px solid #ff6964;
+  padding-left: 20px;
+  margin: 100px 0;
+}
+#sikumi{
+  height: 85dvh;
+}
+
+#sikumi img{
+  width: 50%;
+  border: 50px solid rgba(222, 184, 135, 0.3);
+}
+
+.sikumi-container{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.sikumi-text{
+  width: 80%;
+  line-height: 2;
+  text-decoration: underline dashed #ff6964;
+  text-underline-offset: 10px;
+}
+
+.sikumi-text span{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sikumi-img{
+  width: 100%;
+  text-align: end;
+  margin-top: -100px;
+}
+
+#bosyu{
+  height: 85dvh;
+}
+
+.bosyu-container{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.bosyu-item{
+  width: 500px;
+  padding: 10px;
+  border: 5px double #ff6964;
+}
+
+h3{
+  text-decoration: underline dashed #ff6964;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.bosyu-item ol{
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+.form{
+  display: inline-block;
+  padding: 5px 20px;
+  border: 2px solid #696969;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.form::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 100%;
+  background-color: #ff6964;
+  transition: all 0.3s ease;
+  transform: translate(-50%);
+  z-index: 0;
+}
+
+.form:hover::before{
+  width: 100%;
+}
+
+.form:hover{
+  color: aliceblue;
+}
+
+.bosyu-item span{
+  position: relative;
+  z-index: 1;
+}
+
+#basyo{
+  height: 85dvh;
+}
+
+.basyo-container img{
+ width: 40%;
+border-radius: 24px;
+ box-shadow: 16px 8px #deb887;
+}
+
+.basyo-text{
+  text-align: end;
+  text-decoration: underline dashed #ff6964;
+  text-underline-offset: 10px;
+  line-height: 2;
+}
+
+#ryoukin{
+  height: 85dvh;
+}
+
+#ryoukin h3{
+  margin-top: 50px;
+}
+
+table{
+  width: 80%;
+  margin: 20px auto;
+  border: 2px solid #696969;
+
+}
+
+th,td{
+  height: 50px;
+  border: 2px solid #696969;
+  text-align: center;
+}
+
+.ps small{
+  width: 100%;
+  text-align: end;
+}
+
+#about img{
+  width: 100%;
+}
+
+#about p{
+  line-height: 2;
+}
+
+#about{
+  padding-bottom: 180px;
+}
